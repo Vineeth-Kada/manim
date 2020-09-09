@@ -2,8 +2,7 @@
 
 from manimlib.imports import *
 
-# To watch one of these scenes, run the following:
-# python -m manim example_scenes.py SquareToCircle -pl
+
 #
 # Use the flat -l for a faster rendering at a lower
 # quality.
@@ -14,6 +13,10 @@ from manimlib.imports import *
 # Use -r <number> to specify a resolution (for example, -r 1080
 # for a 1920x1080 video)
 
+# To watch one of these scenes in low quality:
+# python3 ./manim.py example_scenes.py SquareToCircle -pl
+# for 60 fps and 4K use the below command
+# python3 ./manim.py example_scenes.py SquareToCircle -p --high_quality  -r 2160
 
 class OpeningManimExample(Scene):
     def construct(self):
