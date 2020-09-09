@@ -2,7 +2,6 @@
 
 from manimlib.imports import *
 
-
 #
 # Use the flat -l for a faster rendering at a lower
 # quality.
